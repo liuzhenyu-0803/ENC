@@ -1,0 +1,127 @@
+NOAA ENC®
+
+NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION
+
+US4NV1GT - LAKE MEAD - GRAND WASH BAY TO TEMPLE BASIN, AZ
+
+
+INDEX:
+
+NOTE A
+AIDS TO NAVIGATION
+POLLUTION REPORTS
+CAUTION - USE OF RADIO SIGNALS (LIMITATIONS)
+SUPPLEMENTAL INFORMATION
+CAUTION - TEMPORARY CHANGES
+WARNING - PRUDENT MARINER
+ADDITIONAL INFORMATION
+AUTHORITIES
+ADMINISTRATION
+CAUTION - FREQUENT CHANGES
+CAUTION - QUALITY OF BATHYMETRIC DATA
+HOOVER DAM
+LAKE LEVELS, WATER DEPTHS AND ELEVATIONS
+MARINE WEATHER INFORMATION
+RADAR REFLECTORS
+NOAA WEATHER RADIO BROADCASTS
+REEF MARKERS (CAUTION - ALL REEFS ARE NOT MARKED)
+RULES OF THE ROAD (ABRIDGED)
+SOUNDING DATUM
+WATER LEVELS, CURRENTS, AND TIDES
+COMMENTS REQUESTED
+
+
+NOTES:
+
+NOTE A
+Navigation regulations are published in Chapter 2, U.S. Coast Pilot 7. Additions or revisions to Chapter 2 are published in the Notices to Mariners. Information concerning the regulations may be obtained at the Office of the Commander, 11th Coast Guard District in Alameda, CA or at the Office of the District Engineer, Corps of Engineers in Los Angeles, CA.
+Refer to charted regulation section numbers.
+
+
+AIDS TO NAVIGATION
+Aids to Navigation on Lake Mead are maintained by the National Park Service. Lights are two types, fixed and movable. Fixed lights are permanently located above any probable lake level. Movable lights are located when the lake height requires.
+
+
+POLLUTION REPORTS
+Report all spills of oil and hazardous substances to the National Park Service (702) 293-8932.
+
+
+CAUTION - USE OF RADIO SIGNALS (LIMITATIONS) 
+Limitations on the use of radio signals as aids to marine navigation can be found in the U.S. Coast Guard Light Lists and National Geospatial-Intelligence Agency Publication 117. Radio direction-finder bearings to commercial broadcasting stations are subject to error and should be used with caution.
+
+
+SUPPLEMENTAL INFORMATION
+Consult U.S. Coast Pilot 7 for important supplemental information.
+
+
+CAUTION - TEMPORARY CHANGES
+Temporary changes or defects in aids to navigation are not indicated. See Local Notice to Mariners.
+
+
+WARNING - PRUDENT MARINER
+The prudent mariner will not rely solely on any single aid to navigation, particularly on floating aids. See U.S. Coast Guard Light List and U.S. Coast Pilot for general information, and Superintendent, Lake Mead National Recreational area, National Park Service, for specific details.
+
+
+ADDITIONAL INFORMATION
+Additional information can be obtained at www.nauticalcharts.noaa.gov.
+
+
+AUTHORITIES
+Surveys by the Geological Survey, Soil Conservation, and the National Ocean Service, Coast Survey.
+
+
+ADMINISTRATION
+Lake Mead National Recreation Area, established October 8, 1964, is administered by the National Park Service, U.S. Department of the Interior. The National Park System, of which this area is a unit, is dedicated to conserving the scenic, scientific, historic, and recreational heritage of the United States for the benefit and enjoyment of its people. A Superintendent, whose address is 601 Nevada Highway, Boulder City, Nevada 89005, is in immediate charge.
+
+
+CAUTION - FREQUENT CHANGES
+Frequent changes in aids to navigation can be expected because of fluctuation in lake level. Current information may be obtained at the Park Headquarters or Ranger Office.
+
+
+CAUTION - QUALITY OF BATHYMETRIC DATA
+The areas represented by the object M_QUAL (Quality of data) are approximate due to generalizing for clarity. Caution is advised, particularly for nearshore navigation or voyage planning. M_QUAL represents areas of uniform quality of bathymetric data. The CATZOC (Category of zone of confidence in data) attribute of M_QUAL provides an assessment of the overall zone of confidence.
+
+
+HOOVER DAM
+The boulder Canyon Project Act, passed in 1928, authorized the Bureau of Reclamation, U.S. Department of the Interior, to construct Hoover Dam. Work began in 1931, and the structure was dedicated in 1935. It is the tallest dam in the Western Hemisphere, rising 221.4 meters / 726.4 feet from the base rock to the roadway on top. Its crest is 379.2 meters / 1,244 feet long.
+
+
+LAKE LEVELS, WATER DEPTHS AND ELEVATIONS
+The 335.3 meter / 1100 foot elevation (18.2 meter / 60 foot depth curve) represents a low lake level. The 353.5 meter / 1160 foot contour represents the normal lake level. The 365.7 meter / 1200 foot contour represents a high lake level. The areas between the coastline and the 18.2 meter / 60 foot depth contour represents elevations between 335.3 meters and 353.5 meters / 1100 and 1160 feet above Mean Sea Level. The marsh areas represent elevations between 353.5 meters and 365.7 meters / 1160 and 1200 feet above Mean Sea Level. Contour values indicate elevations in feet above Mean Sea Level.
+
+
+MARINE WEATHER INFORMATION
+The National Park Service communications center makes twice daily weather broadcasts of weather conditions in the Lake Mead area.  The broadcasts are on marine VHF station KOJ 719 channel 22A (157.1 MHz) located at 35°58'40"N., 114°50'15"W.  With prior notice of the broadcasts being made on marine safety and emergency channel 16 (156.8 MHz) so that vessels may switch to channel 22A and listen to the broadcasts.
+
+
+RADAR REFLECTORS
+Radar reflectors have been placed on many floating aids to navigation. Individual radar reflector identification on these aids has been omitted from this chart.
+
+
+NOAA WEATHER RADIO BROADCASTS
+The NOAA Weather Radio station listed below provides continuous weather broadcasts. The reception range is typically 20 to 40 nautical miles from the antenna site, but can be as much as 100 nautical miles for stations at high elevations.
+
+Las Vegas, NV        WXL-36   162.550 MHz
+
+
+REEF MARKERS (CAUTION - ALL REEFS ARE NOT MARKED)
+Numerous reefs, many of which are submerged, are marked by spar buoys. These are painted white with orange bands at top and bottom and an orange diamond. Buoys mark the edges of reefs.
+
+
+RULES OF THE ROAD (ABRIDGED)
+Motorless craft have the right-of-way in almost all cases. Sailing vessels and motorboats less than 19.8 meters / 65 feet in length, shall not hamper, in a narrow channel, the safe passage of a vessel which can navigate only inside that channel. A motorboat being overtaken has the right-of-way. Motorboats approaching head to head or nearly so should pass port to port. When Motorboats approach each other at right angles or obliquely, the boat on the right has the right-of-way in most cases. Motorboats must keep to the right in narrow channels, when safe and practicable. Mariners are urged to become familiar with the complete text of the Rules of the Road in U.S. Coast Guard publication "Amalgamated International & U.S. Inland Navigation Rules". For emergencies call KOJ719 (National Park Service) on marine band channel 16.
+
+
+SOUNDING DATUM
+Soundings refer to a normal lake level elevation which is 353.5 meters / 1160 feet above Mean Sea Level.
+
+
+WATER LEVELS, CURRENTS, AND TIDES
+Real-time water levels, tide predictions, and tidal current predictions are available on the internet from NOAA's Center for Operational Oceanographic Products and Services (CO-OPS) at https://tidesandcurrents.noaa.gov/water_level_info.html and https://tidesandcurrents.noaa.gov/currents_info.html.
+
+
+COMMENTS REQUESTED
+NOAA encourages users to submit inquiries, discrepancies, or comments about this chart via NOAA's ASSIST tool at https://www.nauticalcharts.noaa.gov/customer-service/assist/.
+
+
+END OF FILE

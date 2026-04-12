@@ -1,0 +1,33 @@
+NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY
+US4TE3C0 - FEDERATED STATES OF MICRONESIA - APPROACHES TO KOSRAE ISLAND WEST
+ 
+INDEX:
+GLOSSARY
+LIDAR SURVEYS
+POSITIONS
+CAUTION
+TIDAL INFORMATION
+SUPPLEMENTAL INFORMATION
+
+GLOSSARY:
+Finol ... mountain, peak
+Foko ... cape, point (reef point)
+Infal ... stream
+Molsron ... bay, harbor
+
+LIDAR SURVEYS:
+Much of the hydrography on this chart is based on surveys using airborne Light Detection and Ranging, or LIDAR. The ability of LIDAR to detect depths and hazards is limited by water conditions, such as water clarity, depth, and the state of the sea surface. Therefore, certain LIDAR-surveyed areas are not thoroughly examined, particularly in areas with depths greater than 20 meters. In such areas, additional sources may have been used.
+
+POSITIONS:
+Coastline derived from imagery with additions from other sources.
+
+CAUTION:
+Fish Aggregating Devices (FADs), anchored or drifting, are commonly deployed within the waters of many Pacific Islands and may not be charted. Even though many of the installations are temporary in nature, FADs pose significant risk to navigation safety. Prudent mariners should exercise caution in navigating these waters.
+
+TIDAL INFORMATION:
+Refer to Admiralty Total Tides Program for the latest information.
+
+SUPPLEMENTAL INFORMATION:
+Consult National Geospatial-Intelligence Agency Pub. 126, Sailing Directions, for important supplemental information.
+
+END OF FILE

@@ -1,0 +1,22 @@
+NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY
+US4TH2E0 - FEDERATED STATES OF MICRONESIA - ULITHI ATOLL, NORTHWEST 
+ 
+INDEX:
+NOTE
+CAUTION 1
+TIDAL INFORMATION
+SUPPLEMENTAL INFORMATION
+
+NOTE:
+This cell has been positioned on the WGS-84 Datum with the use of orthorectified imagery. However, the hydrography is based on Japanese chart edition 1931 from surveys prior to 1930 and U.S. Navy Surveys, Archive No 765016 from 1976.
+
+CAUTION 1:
+Fish Aggregating Devices (FADs), anchored or drifting, are commonly deployed within the waters of many Pacific Islands and may not be charted. Even though many of the installations are temporary in nature, FADs pose significant risk to navigation safety. Prudent mariners should exercise caution in navigating these waters.
+
+TIDAL INFORMATION:
+Refer to Admiralty Total Tides Program for the latest information.
+
+SUPPLEMENTAL INFORMATION:
+Consult National Geospatial-Intelligence Agency Pub. 126, Sailing Directions, for important supplemental information.
+
+END OF FILE

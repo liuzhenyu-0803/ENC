@@ -1,0 +1,27 @@
+Start testing: Apr 11 14:48 中国标准时间
+----------------------------------------------------------
+1/1 Testing: navscene-smoke
+1/1 Test: navscene-smoke
+Command: "E:/projects/enc/navscene-sdk/build/tests/Debug/navscene-smoke.exe"
+Directory: E:/projects/enc/navscene-sdk/build/tests
+"navscene-smoke" start time: Apr 11 14:48 中国标准时间
+Output:
+----------------------------------------------------------
+[navscene][INFO] Engine active backend: Null.
+[navscene][INFO] Preferred S-57 reader: filesystem-probe.
+[navscene][INFO] Engine created with stub services for phase 1.
+[navscene][INFO] Chart directory registered: C:\Users\liuzh\AppData\Local\Temp\navscene-smoke\charts
+[navscene][INFO] Loaded S-57 dataset via reader 'filesystem-probe': C:\Users\liuzh\AppData\Local\Temp\navscene-smoke\charts\CELL_A.000
+[navscene][INFO] Catalog rescan recognized 1 dataset(s).
+[navscene][INFO] Loaded S-57 dataset via reader 'filesystem-probe': C:\Users\liuzh\AppData\Local\Temp\navscene-smoke\extra\CELL_B.000
+[navscene][INFO] Source registered: direct-cell
+[navscene][INFO] Render surface attached. Backend=Null.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"navscene-smoke" end time: Apr 11 14:48 中国标准时间
+"navscene-smoke" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 11 14:48 中国标准时间

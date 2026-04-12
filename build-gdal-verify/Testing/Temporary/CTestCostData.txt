@@ -1,0 +1,16 @@
+navscene-smoke 91 0.00231615
+navscene-s57-samples 69 0.010341
+navscene-error-paths 72 0.0152156
+navscene-portrayal-mvp 87 0.000511937
+navscene-scene-signature 65 0.00946381
+navscene-scene-svg 64 0.0111541
+navscene-projected-chart-scene 67 0.000475157
+navscene-polygon-triangulation 58 0.00949922
+navscene-vulkan-win32-render-modes 59 0.0268211
+navscene-layer-composition 53 0.027352
+navscene-chart-selection 61 0.000316854
+navscene-chart-scene-builder-filters 51 0.00843933
+navscene-label-layout 49 0.000364331
+navscene-portrayal-catalog 55 0.00062676
+navscene-s57-reference-render 26 0.0597683
+---

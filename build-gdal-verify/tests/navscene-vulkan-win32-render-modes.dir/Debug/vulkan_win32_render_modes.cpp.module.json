@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-vulkan-win32-render-modes.dir\\Debug\\vulkan_win32_render_modes.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-vulkan-win32-render-modes.dir\\Debug\\vc143.pdb",
+                "navscene-vulkan-win32-render-modes.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

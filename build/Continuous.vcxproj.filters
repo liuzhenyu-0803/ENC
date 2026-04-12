@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\build\CMakeFiles\178fea25e340efc619d6a892fec7190f\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\projects\enc\navscene-sdk\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F8F2008-3264-3041-B707-0D79A05054F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

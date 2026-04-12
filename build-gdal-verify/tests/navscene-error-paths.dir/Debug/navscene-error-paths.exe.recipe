@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\src\x64\Debug\navscene-vulkan-shaders</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-error-paths.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

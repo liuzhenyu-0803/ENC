@@ -1,0 +1,10 @@
+^E:\PROJECTS\ENC\NAVSCENE-SDK\BUILD\CMAKEFILES\178FEA25E340EFC619D6A892FEC7190F\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/projects/enc/navscene-sdk/build/navscene_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

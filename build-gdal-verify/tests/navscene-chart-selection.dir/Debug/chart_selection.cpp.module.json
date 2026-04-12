@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-chart-selection.dir\\Debug\\chart_selection.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-chart-selection.dir\\Debug\\vc143.pdb",
+                "navscene-chart-selection.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

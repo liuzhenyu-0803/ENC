@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F65C311A-C179-3CFC-9E14-E20773BCB8BF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-vk-probe --check-stamp-file E:/projects/enc/navscene-sdk/build-vk-probe/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-vk-probe --check-stamp-file E:/projects/enc/navscene-sdk/build-vk-probe/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-vk-probe --check-stamp-file E:/projects/enc/navscene-sdk/build-vk-probe/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-vk-probe --check-stamp-file E:/projects/enc/navscene-sdk/build-vk-probe/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\projects\enc\navscene-sdk\build-vk-probe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\ZERO_CHECK.vcxproj">
+      <Project>{C21BEDA3-B4C7-3299-AA47-BF9418E25937}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\src\navscene.vcxproj">
+      <Project>{B2FD7003-610D-36F4-82A3-537CDB45DE8A}</Project>
+      <Name>navscene</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\demo\qt\navscene-demo-qt.vcxproj">
+      <Project>{8BE80EE2-8BB4-3610-BC09-93054E0AB861}</Project>
+      <Name>navscene-demo-qt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-error-paths.vcxproj">
+      <Project>{EA384FEE-69E5-3A99-AA5F-DAF1A5EB55C3}</Project>
+      <Name>navscene-error-paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-portrayal-mvp.vcxproj">
+      <Project>{5D4DFC58-DC22-3FEE-BC1F-C4D714FFD6EC}</Project>
+      <Name>navscene-portrayal-mvp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-s57-samples.vcxproj">
+      <Project>{0C29CC79-4B07-3709-A613-4988059429F2}</Project>
+      <Name>navscene-s57-samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-scene-signature.vcxproj">
+      <Project>{FDD95483-6627-3135-B6B0-E7026BA1D443}</Project>
+      <Name>navscene-scene-signature</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-scene-svg.vcxproj">
+      <Project>{5319B084-CA67-3A1F-A163-16EF19DFD26E}</Project>
+      <Name>navscene-scene-svg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-vk-probe\tests\navscene-smoke.vcxproj">
+      <Project>{A0E9B930-8A82-3883-94B6-FF061FD5CFB2}</Project>
+      <Name>navscene-smoke</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

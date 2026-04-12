@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-error-paths.dir\\Debug\\engine_error_paths.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-error-paths.dir\\Debug\\vc143.pdb",
+                "navscene-error-paths.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

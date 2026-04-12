@@ -1,0 +1,13 @@
+E:/projects/enc/navscene-sdk/build/CMakeFiles/Experimental.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/Nightly.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/Continuous.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/NightlyMemoryCheck.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/RUN_TESTS.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/ALL_BUILD.dir
+E:/projects/enc/navscene-sdk/build/CMakeFiles/ZERO_CHECK.dir
+E:/projects/enc/navscene-sdk/build/src/CMakeFiles/navscene.dir
+E:/projects/enc/navscene-sdk/build/src/CMakeFiles/RUN_TESTS.dir
+E:/projects/enc/navscene-sdk/build/demo/qt/CMakeFiles/navscene-demo-qt.dir
+E:/projects/enc/navscene-sdk/build/demo/qt/CMakeFiles/RUN_TESTS.dir
+E:/projects/enc/navscene-sdk/build/tests/CMakeFiles/navscene-smoke.dir
+E:/projects/enc/navscene-sdk/build/tests/CMakeFiles/RUN_TESTS.dir

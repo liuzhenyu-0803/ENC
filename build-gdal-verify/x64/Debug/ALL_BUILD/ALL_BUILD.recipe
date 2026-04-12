@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\src\x64\Debug\navscene-vulkan-shaders</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-chart-scene-builder-filters.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-chart-selection.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\demo\qt\Debug\navscene-demo-qt.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-error-paths.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-label-layout.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-layer-composition.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-polygon-triangulation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-portrayal-catalog.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-portrayal-mvp.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-projected-chart-scene.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-s57-feature-dump.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-s57-reference-render.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-s57-samples.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-scene-signature.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-scene-svg.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-smoke.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\tests\Debug\navscene-vulkan-win32-render-modes.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\projects\enc\navscene-sdk\build-gdal-verify\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

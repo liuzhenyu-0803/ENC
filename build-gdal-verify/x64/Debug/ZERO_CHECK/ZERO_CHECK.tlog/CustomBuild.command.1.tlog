@@ -1,0 +1,10 @@
+^E:\PROJECTS\ENC\NAVSCENE-SDK\BUILD-GDAL-VERIFY\CMAKEFILES\C68EADF2D3DCC98BE77D4BAAB85AB08C\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-verify --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/projects/enc/navscene-sdk/build-gdal-verify/navscene_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

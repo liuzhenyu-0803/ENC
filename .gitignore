@@ -1,19 +1,5 @@
-build/
-build-*/
 .vs/
 .vscode/
-out/
-bin/
-obj/
-
-*.exe
-*.dll
-*.pdb
-*.ilk
-*.lib
-*.exp
-*.obj
-*.log
 
 CMakeUserPresets.json
 .DS_Store

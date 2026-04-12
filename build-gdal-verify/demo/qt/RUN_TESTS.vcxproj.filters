@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\f34b091daa1b115c55b01679c680c6ed\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B995A6EE-EEC7-3F90-85D0-91FA5F69B825}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

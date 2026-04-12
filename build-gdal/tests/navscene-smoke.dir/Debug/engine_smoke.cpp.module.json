@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-smoke.dir\\Debug\\engine_smoke.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal\\tests\\navscene-smoke.dir\\Debug\\vc143.pdb",
+                "navscene-smoke.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-scene-svg.dir\\Debug\\scene_svg_export.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-scene-svg.dir\\Debug\\vc143.pdb",
+                "navscene-scene-svg.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-layer-composition.dir\\Debug\\layer_composition.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-layer-composition.dir\\Debug\\vc143.pdb",
+                "navscene-layer-composition.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

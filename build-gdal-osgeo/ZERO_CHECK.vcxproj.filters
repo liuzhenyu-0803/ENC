@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\build-gdal-osgeo\CMakeFiles\021ef815919cd405f7a6e8d86286097c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4502AB5B-9649-3966-9AFB-EF595AB54A41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

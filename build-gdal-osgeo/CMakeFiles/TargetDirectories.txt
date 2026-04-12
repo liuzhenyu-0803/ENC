@@ -1,0 +1,4 @@
+E:/projects/enc/navscene-sdk/build-gdal-osgeo/CMakeFiles/ALL_BUILD.dir
+E:/projects/enc/navscene-sdk/build-gdal-osgeo/CMakeFiles/ZERO_CHECK.dir
+E:/projects/enc/navscene-sdk/build-gdal-osgeo/src/CMakeFiles/navscene.dir
+E:/projects/enc/navscene-sdk/build-gdal-osgeo/demo/qt/CMakeFiles/navscene-demo-qt.dir

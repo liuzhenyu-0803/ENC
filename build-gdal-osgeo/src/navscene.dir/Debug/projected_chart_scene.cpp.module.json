@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene.dir\\Debug\\projected_chart_scene.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-osgeo\\src\\Debug\\navscene.pdb",
+                "navscene.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-s57-samples.dir\\Debug\\s57_sample_validation.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\tests\\navscene-s57-samples.dir\\Debug\\vc143.pdb",
+                "navscene-s57-samples.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

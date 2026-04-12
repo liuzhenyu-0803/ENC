@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A5B792C-5051-3631-B774-34CEF4355118}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-verify --check-stamp-file E:/projects/enc/navscene-sdk/build-gdal-verify/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-verify --check-stamp-file E:/projects/enc/navscene-sdk/build-gdal-verify/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-verify --check-stamp-file E:/projects/enc/navscene-sdk/build-gdal-verify/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/projects/enc/navscene-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-verify --check-stamp-file E:/projects/enc/navscene-sdk/build-gdal-verify/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets-relwithdebinfo.cmake;E:\OSGeo4W\lib\cmake\gdal\GDAL-targets.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfig.cmake;E:\OSGeo4W\lib\cmake\gdal\GDALConfigVersion.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\ZERO_CHECK.vcxproj">
+      <Project>{258D78FF-FAEA-345B-A557-BA0876F89AD4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\src\navscene.vcxproj">
+      <Project>{B84E0C68-E5A3-3B53-AB92-D2A27AA8F91D}</Project>
+      <Name>navscene</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-chart-scene-builder-filters.vcxproj">
+      <Project>{2433BEC6-1D0C-35D5-B786-46B7C91CB5C8}</Project>
+      <Name>navscene-chart-scene-builder-filters</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-chart-selection.vcxproj">
+      <Project>{2A22BF50-500A-31AF-8DF4-EDE7AE5AF9F1}</Project>
+      <Name>navscene-chart-selection</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\demo\qt\navscene-demo-qt.vcxproj">
+      <Project>{4FFBCBE4-DF81-3F6B-B358-DDB907DA9349}</Project>
+      <Name>navscene-demo-qt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-error-paths.vcxproj">
+      <Project>{A03B969A-C20F-3DAB-8DA6-C7837C49441F}</Project>
+      <Name>navscene-error-paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-label-layout.vcxproj">
+      <Project>{4473FEA6-DCC3-345E-A87A-583664733CB3}</Project>
+      <Name>navscene-label-layout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-layer-composition.vcxproj">
+      <Project>{822A9308-4EC7-3E7B-95DA-398C6C01899A}</Project>
+      <Name>navscene-layer-composition</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-polygon-triangulation.vcxproj">
+      <Project>{82CE27FB-A4E3-3FA9-96CE-F0709918595E}</Project>
+      <Name>navscene-polygon-triangulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-portrayal-catalog.vcxproj">
+      <Project>{65CAF7A5-BA7D-3E3D-8BB5-F9A4359FBE3C}</Project>
+      <Name>navscene-portrayal-catalog</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-portrayal-mvp.vcxproj">
+      <Project>{FF0FD46F-1255-318B-9401-3B24248A9231}</Project>
+      <Name>navscene-portrayal-mvp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-projected-chart-scene.vcxproj">
+      <Project>{B4E90C26-C4DA-33F0-B2AE-D34829175003}</Project>
+      <Name>navscene-projected-chart-scene</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-s57-feature-dump.vcxproj">
+      <Project>{C0DADE31-9404-3F74-B0AD-62A7157405BB}</Project>
+      <Name>navscene-s57-feature-dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-s57-reference-render.vcxproj">
+      <Project>{66BCA88C-A50E-3AB2-AFEE-4FD68F9A364C}</Project>
+      <Name>navscene-s57-reference-render</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-s57-samples.vcxproj">
+      <Project>{5234BA08-B360-31D1-BA8C-0B1B12ABF9FA}</Project>
+      <Name>navscene-s57-samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-scene-signature.vcxproj">
+      <Project>{9D6ED139-0135-3ED4-AC8F-7DFA5428D2AF}</Project>
+      <Name>navscene-scene-signature</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-scene-svg.vcxproj">
+      <Project>{EF2ADD2A-3EBF-350D-97BF-562AC8AD51D9}</Project>
+      <Name>navscene-scene-svg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-smoke.vcxproj">
+      <Project>{B02E255E-79D1-3995-AA46-DB9644BAAB5D}</Project>
+      <Name>navscene-smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\enc\navscene-sdk\build-gdal-verify\tests\navscene-vulkan-win32-render-modes.vcxproj">
+      <Project>{089F7EF5-67AD-3150-BB42-65CBD696AB3C}</Project>
+      <Name>navscene-vulkan-win32-render-modes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

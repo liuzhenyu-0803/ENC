@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "navscene-demo-qt.dir\\Debug\\main_window.obj",
+            "outputs": [
+                "E:\\projects\\enc\\navscene-sdk\\build-gdal-verify\\demo\\qt\\navscene-demo-qt.dir\\Debug\\vc143.pdb",
+                "navscene-demo-qt.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

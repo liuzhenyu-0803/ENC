@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\c68eadf2d3dcc98be77d4baab85ab08c\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\projects\enc\navscene-sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\projects\enc\navscene-sdk\build-gdal-verify\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B995A6EE-EEC7-3F90-85D0-91FA5F69B825}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

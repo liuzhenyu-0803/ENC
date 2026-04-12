@@ -1,0 +1,10 @@
+^E:\PROJECTS\ENC\NAVSCENE-SDK\BUILD-GDAL-OSGEO\CMAKEFILES\021EF815919CD405F7A6E8D86286097C\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SE:/projects/enc/navscene-sdk -BE:/projects/enc/navscene-sdk/build-gdal-osgeo --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/projects/enc/navscene-sdk/build-gdal-osgeo/navscene_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
